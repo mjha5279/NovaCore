@@ -21,7 +21,7 @@ function Python() {
     try{
 
       // const {data} = await axios.post("http://localhost:5000/runpy",payload)
-      const response = await fetch("http://localhost:5000/runpy",{
+      const response = await fetch("https://novacore-1ik9.onrender.com/runpy",{
         method:'POST',
         headers:{
           "Content-Type":"application/json"
