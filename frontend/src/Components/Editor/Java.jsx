@@ -21,7 +21,7 @@ function Java() {
  
     try{
       // const {data} = await axios.post("http://localhost:5000/rundart",payload)
-      const response = await fetch("https://novacore-1ik9.onrender.com/rundart",{
+      const response = await fetch("https://novacore-nfjd.onrender.com/rundart",{
         method:'POST',
         headers:{
           "Content-Type":"application/json"
